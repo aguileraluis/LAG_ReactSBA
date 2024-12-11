@@ -40,6 +40,7 @@ const Main = () => {
 
   return (
     <>
+    <h1 className="heading">Click on a Pokemon Below!</h1>
     <div className="container">
         <div className="left-content">
             <Card pokemon={pokemon} loading={loading} infoPokemon={poke=> setPokeDex(poke)}/>

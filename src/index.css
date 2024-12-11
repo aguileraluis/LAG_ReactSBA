@@ -18,9 +18,17 @@ body{
 }
 .left-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-template-columns: repeat(auto-fit,minmax(265px,0.5fr));
     grid-gap:2rem;
 }
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
 .card{
     width: 300px;
     background-color:#9EDEF9;

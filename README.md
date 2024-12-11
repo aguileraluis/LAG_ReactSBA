@@ -1,8 +1,18 @@
-# React + Vite
+# React Pokemon Application 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application is using the Pokemon application to view all pokemon and then an individual pokemon
 
-Currently, two official plugins are available:
+# Functionality and Approach
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I created two main components
+
+  - Card 
+  - CardInfo
+
+The Card displays the pokemon with an index, name, and image. 
+The CardInfo displays the pokemon stats, more information and the name
+
+# To start the application 
+  - npm install 
+  - npm run dev 
+
